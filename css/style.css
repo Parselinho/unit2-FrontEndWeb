@@ -78,7 +78,7 @@ footer {
  .full {
      display: none;
  }
- header, main, aside {
+ header, aside {
      text-align: center;
  }
  aside {
@@ -103,9 +103,10 @@ footer {
      text-transform: lowercase;
      
  }
- .main {
+ #portfolio {
      text-transform: uppercase;
      margin-top: 18px;
      padding-top: 2em;
      padding-bottom: 0.5em;
+     text-align: center;
  }
