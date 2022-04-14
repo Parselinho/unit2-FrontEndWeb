@@ -149,3 +149,20 @@ footer {
     margin: 5px 0;
   }
 }
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .top-nav,
+  .top-nav li {
+    width: initial;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .col {
+    flex-basis: calc(33.333% - 20px);
+  }
+}
