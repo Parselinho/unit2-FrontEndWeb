@@ -126,9 +126,11 @@ footer {
   h2 {
     margin: 0 auto;
   }
-  .col {
+  .container {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
   }
+  .col {
+    flex-basis: calc(50% - 20px);
+  }  
 }
