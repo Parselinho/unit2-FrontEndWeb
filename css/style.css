@@ -109,7 +109,7 @@ footer {
      text-align: center;
  }
  @media (min-width: 768px) {
-   ul, .top-nav {
+   ul, .top-nav, .full {
      display: flex;
      justify-content: space-between;
      padding: 0.10em 10em;
@@ -132,5 +132,8 @@ footer {
   }
   .col {
     flex-basis: calc(50% - 20px);
-  }  
+  }
+  .top {
+    display: none;
+  }
 }
