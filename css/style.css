@@ -109,11 +109,17 @@ footer {
      text-align: center;
  }
  @media (min-width: 768px) {
-   ul, .top-nav, .full {
+   ul, .top-nav {
      display: flex;
      justify-content: space-between;
      padding: 0.10em 10em;
      margin: 1px 0;
+   }
+   .full {
+     display: inline-block;
+     justify-content: space-between;
+     margin: 5px 0 35px 20px;
+     padding: 5px 0 35px 20px;
    }
    .profile {
     display: flex;
@@ -135,5 +141,8 @@ footer {
   }
   .top {
     display: none;
+  }
+  .gal {
+    margin: 5px 0;
   }
 }
