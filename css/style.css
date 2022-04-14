@@ -123,13 +123,10 @@ footer {
   .profile p {
     padding: 10px 20px 10px 0;
   }
-  .container {
+  .col {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
-  .col {
-    flex-basis: calc(50%-20px);
- }
+
 }
