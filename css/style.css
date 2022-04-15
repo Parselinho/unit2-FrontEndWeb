@@ -37,7 +37,7 @@ a {
   nav {
     font-weight: 400;
     letter-spacing: .05em;
-    padding: 25px;
+    padding: 25px 0;
   }
   h1, .top-nav {
     text-align: center;
