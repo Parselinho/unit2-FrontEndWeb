@@ -144,8 +144,7 @@ footer {
   }
   
   ul.footer-nav { 
-    padding: 0 0 40px 40px;
-    
+    padding: 0 0 0 40px;
   }
    .profile {
     display: flex;
