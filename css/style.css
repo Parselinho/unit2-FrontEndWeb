@@ -153,14 +153,14 @@ footer {
   nav {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
   }
   .top-nav,
   .top-nav li {
+    margin: 10px;
     width: initial;
-    margin-bottom: 0;
-    display: inline-block;
-    margin-left: 30px;
+    flex-direction: row-reverse;
+    
   }
   .col {
     flex-basis: calc(33.333% - 20px);
