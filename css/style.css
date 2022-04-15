@@ -28,9 +28,11 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    transition: 1s;
   }
   a:hover {
     background-color: orangered;
+    font-size: 20px;
   }  
   nav {
     font-weight: 400;
@@ -152,6 +154,7 @@ footer {
   }
   .profile p {
     padding: 10px 20px 10px 0;
+    text-align: left;
   }
   h2 {
     margin: 0 auto;
