@@ -155,12 +155,12 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-  .top-nav,
+  .top-nav, 
   .top-nav li {
-    margin: 10px;
     width: initial;
-    flex-direction: row-reverse;
-    
+    margin-bottom: 0;
+    padding-left: 1em;
+    padding-right: 0.5em;
   }
   .col {
     flex-basis: calc(33.333% - 20px);
