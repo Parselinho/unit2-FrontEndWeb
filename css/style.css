@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: black;
+    text-align: center;
 }
 img {
     width: 100%;
@@ -189,4 +190,3 @@ footer {
   }
 }
  }
- 
